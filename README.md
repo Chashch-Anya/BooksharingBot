@@ -40,7 +40,8 @@
 ![image](https://user-images.githubusercontent.com/97462459/169827691-a3f1209e-992f-4969-b29d-7cdb6e9c5d19.png)
  
 <li> Книга добавляется в таблицу:</li>
- ![image](https://user-images.githubusercontent.com/97462459/169827779-ae7f21f4-2223-4f67-baec-5798d600bfb1.png)
+
+![image](https://user-images.githubusercontent.com/97462459/169827779-ae7f21f4-2223-4f67-baec-5798d600bfb1.png)
 
 ![image](https://user-images.githubusercontent.com/97462459/169828118-69aeccf8-8a03-457d-9b62-7cd12d049100.png)
 <h3>Возвращение книги</h3>
