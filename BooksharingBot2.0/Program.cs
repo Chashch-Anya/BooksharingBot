@@ -122,7 +122,7 @@ namespace BooksharingBot2._0
                    $"/booklist - получить список книг\n" +
                    $"/addbook - добавить книгу\n" +
                    $"/getbook - вернуть книгу\n" +
-                   $"/categorylist - добавить книгу\n" +
+                   $"/categorylist - список категорий\n" +
                    $"/addcategory - добавить категорию\n" +
                    $"/setting - настройки\n" +
                    $"/keyboard - меню"
