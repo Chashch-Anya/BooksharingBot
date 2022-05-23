@@ -28,26 +28,21 @@
 При взятии свободной книги в гугл документ записывает текущий пользователь и текущая дата 
 
 <h3>Добавление книги</h3>
-1. Выбор категории добавляемой книги
+<li>1. Выбор категории добавляемой книги</li>
 ![image](https://user-images.githubusercontent.com/97462459/169826819-af1f0a20-3f7f-488f-a35e-3dc3d8a8c2f2.png)
-2. Ввод названия книги
+<li>2. Ввод названия книги</li>
 ![image](https://user-images.githubusercontent.com/97462459/169827223-6618492f-457b-4c71-bf23-a5deb266d483.png)
-3. Ввод автора книги
+<li>3. Ввод автора книги</li>
 ![image](https://user-images.githubusercontent.com/97462459/169827390-ea58ab3a-bd61-4737-aa58-d653307548e5.png)
-4. Ввод места хранения книги
+<li>4. Ввод места хранения книги</li>
 ![image](https://user-images.githubusercontent.com/97462459/169827489-8899b50c-5d85-4e76-8c39-265c02a92e7c.png)
-5. Ввод ссылки на книгу
+<li>5. Ввод ссылки на книгу</li>
 ![image](https://user-images.githubusercontent.com/97462459/169827691-a3f1209e-992f-4969-b29d-7cdb6e9c5d19.png)
  
- Книга добавляется в таблицу:
+<li> Книга добавляется в таблицу:</li>
  ![image](https://user-images.githubusercontent.com/97462459/169827779-ae7f21f4-2223-4f67-baec-5798d600bfb1.png)
 
 ![image](https://user-images.githubusercontent.com/97462459/169828118-69aeccf8-8a03-457d-9b62-7cd12d049100.png)
-
-
-
-
-
 <h3>Возвращение книги</h3>
 
 <h3>Список категорий</h3>
