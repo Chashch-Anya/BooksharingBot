@@ -23,10 +23,10 @@
 
 <h2>Запуск</h2>
 В переменных необходимо изменить API токен бота, а также id документа:
-spreadsheetId - id документа с букшерингом
-telegram_token - API токен бота
+<li>spreadsheetId - id документа с букшерингом</li>
+<li>telegram_token - API токен бота</li>
 С помощью консоли данные можно изменить во время работы программы.
 
 Для данных указанных в переменных для тестирования:
-Ссылка на бота: http://t.me/booksharing22_bot
-По умолчанию бот работает с файлом: https://docs.google.com/spreadsheets/d/14iKuowIACacNylNU_CSNu2F64iokBj23vaW8Ikq-bc8/edit#gid=0
+<li>Ссылка на бота: http://t.me/booksharing22_bot</li>
+<li>По умолчанию бот работает с файлом: https://docs.google.com/spreadsheets/d/14iKuowIACacNylNU_CSNu2F64iokBj23vaW8Ikq-bc8/edit#gid=0</li>
