@@ -13,20 +13,53 @@
 
 <h2>Взаимодействие с ботом</h2>
 Команды боту:
-<li>/start - список команд</li>
+<li>/start - список команд, начало работы с ботом</li>
 <li>/booklist - получить список книг </li>
 <li>/addbook - добавить книгу</li>
 <li>/getbook - вернуть книгу</li>
-<li>/categorylist - добавить книгу</li>
+<li>/categorylist - список категорий</li>
 <li>/addcategory - добавить категорию</li>
 <li>/keyboard - меню</li>
+
+<h3>Список книг</h3>
+При вызове команды:
+![image](https://user-images.githubusercontent.com/97462459/169826167-cd82d73f-9e2d-487d-9895-f1c869714a20.png)
+Книги, которые не находятся у кого-либо на руках, доступны для взятия.
+При взятии свободной книги в гугл документ записывает текущий пользователь и текущая дата 
+
+<h3>Добавление книги</h3>
+1. Выбор категории добавляемой книги
+![image](https://user-images.githubusercontent.com/97462459/169826819-af1f0a20-3f7f-488f-a35e-3dc3d8a8c2f2.png)
+2. Ввод названия книги
+![image](https://user-images.githubusercontent.com/97462459/169827223-6618492f-457b-4c71-bf23-a5deb266d483.png)
+3. Ввод автора книги
+![image](https://user-images.githubusercontent.com/97462459/169827390-ea58ab3a-bd61-4737-aa58-d653307548e5.png)
+4. Ввод места хранения книги
+![image](https://user-images.githubusercontent.com/97462459/169827489-8899b50c-5d85-4e76-8c39-265c02a92e7c.png)
+5. Ввод ссылки на книгу
+![image](https://user-images.githubusercontent.com/97462459/169827691-a3f1209e-992f-4969-b29d-7cdb6e9c5d19.png)
+ 
+ Книга добавляется в таблицу:
+ ![image](https://user-images.githubusercontent.com/97462459/169827779-ae7f21f4-2223-4f67-baec-5798d600bfb1.png)
+
+![image](https://user-images.githubusercontent.com/97462459/169828118-69aeccf8-8a03-457d-9b62-7cd12d049100.png)
+
+
+
+
+
+<h3>Возвращение книги</h3>
+
+<h3>Список категорий</h3>
+
+<h3>Добавление категории</h3>
 
 <h2>Запуск</h2>
 В переменных необходимо изменить API токен бота, а также id документа:
 <li>spreadsheetId - id документа с букшерингом</li>
 <li>telegram_token - API токен бота</li>
 С помощью консоли данные можно изменить во время работы программы.
-
+<br>
 Для данных указанных в переменных для тестирования:
 <li>Ссылка на бота: http://t.me/booksharing22_bot</li>
 <li>По умолчанию бот работает с файлом: https://docs.google.com/spreadsheets/d/14iKuowIACacNylNU_CSNu2F64iokBj23vaW8Ikq-bc8/edit#gid=0</li>
