@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Telegram.Bot;
 using Telegram.Bot.Args;
 using Google.Apis.Sheets.v4;
@@ -30,10 +30,9 @@ namespace BooksharingBot2._0
 
         static string chat_status = null;
 
-        
         //telegram
-        // private static string token { get; set; } = "5380616636:AAFndJIw1gDacNr1GE7Hu1rQrl9i6oGA3wU";
-        private static string token { get; set; } = "5262431118:AAGb9zvcOGNeApz4fcSXvmOCqp5Rz2gFf7w";
+        private static string telegram_token { get; set; } = "5380616636:AAFndJIw1gDacNr1GE7Hu1rQrl9i6oGA3wU";
+       // private static string token { get; set; } = "5262431118:AAGb9zvcOGNeApz4fcSXvmOCqp5Rz2gFf7w"; для тестирования смены токена
         private static TelegramBotClient client;
 
         static async Task Main(string[] args)
@@ -42,7 +41,7 @@ namespace BooksharingBot2._0
 
             do
             {
-            client = new TelegramBotClient(token);
+            client = new TelegramBotClient(telegram_token);
             GoogleSheetsHelper.Start(ApplicationName, spreadsheetId);
 
             using var cts = new CancellationTokenSource();
@@ -87,8 +86,8 @@ namespace BooksharingBot2._0
 
                     case "2":
                         Console.WriteLine("Изменение токена бота...\nВведите измененный токен:");
-                        token = Console.ReadLine();
-                        Console.WriteLine(token);
+                        telegram_token = Console.ReadLine();
+                        Console.WriteLine(telegram_token);
                         break;
                 }
 
@@ -106,8 +105,7 @@ namespace BooksharingBot2._0
 
             if (update.Type == UpdateType.CallbackQuery)
             {
-               // Console.WriteLine($"Пользователь {UserName(update.CallbackQuery.Message)} ввел {update.Message.Text}");
-                 HandleCallbackQuery(client, update.CallbackQuery);
+                _ = HandleCallbackQuery(client, update.CallbackQuery);
                 return;
             }
         }
@@ -306,7 +304,7 @@ namespace BooksharingBot2._0
             return keyboardInline;
         }
 
-        static void HandleCallbackQuery(ITelegramBotClient client, CallbackQuery callbackQuery)
+        async static Task HandleCallbackQuery(ITelegramBotClient client, CallbackQuery callbackQuery)
         {
             Console.WriteLine($"Пользователь {UserName(callbackQuery.Message)} нажал {callbackQuery.Data.ToString()}");
 
